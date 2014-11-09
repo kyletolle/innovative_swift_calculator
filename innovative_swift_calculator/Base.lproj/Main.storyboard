@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
-        <!--First-->
+        <!--Addition-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
                 <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="innovative_swift_calculator" customModuleProvider="target" sceneMemberID="viewController">
@@ -116,7 +116,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Addition" image="first" id="acW-dT-cKf"/>
                     <connections>
                         <outlet property="lblAdditionAnswer" destination="Akh-zO-NDf" id="D5K-02-5k6"/>
                         <outlet property="txtAdditionFirstNumber" destination="DMI-LD-dFi" id="qHS-yT-icz"/>
@@ -127,7 +127,7 @@
             </objects>
             <point key="canvasLocation" x="735" y="-304"/>
         </scene>
-        <!--Second-->
+        <!--Subtraction-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
                 <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="innovative_swift_calculator" customModuleProvider="target" sceneMemberID="viewController">
@@ -239,7 +239,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Second" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Subtraction" image="second" id="cPa-gy-q4n"/>
                     <connections>
                         <outlet property="lblSubtractionAnswer" destination="TQs-0R-BQz" id="VsI-63-Ea8"/>
                         <outlet property="txtSubtractionFirstNumber" destination="tFa-ED-roH" id="rA8-cm-8Ii"/>
@@ -273,7 +273,7 @@
             </objects>
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
-        <!--Third-->
+        <!--Multiplication-->
         <scene sceneID="emN-n7-7x5">
             <objects>
                 <viewController id="vg0-J2-EhU" customClass="FirstViewController" customModule="innovative_swift_calculator" customModuleProvider="target" sceneMemberID="viewController">
@@ -385,7 +385,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Third" image="first" id="mj3-7B-Bm9"/>
+                    <tabBarItem key="tabBarItem" title="Multiplication" image="first" id="mj3-7B-Bm9"/>
                     <connections>
                         <outlet property="lblMultiplicationAnswer" destination="jec-tn-ZWH" id="wJO-mX-iqL"/>
                         <outlet property="txtMultiplicationFirstNumber" destination="sJQ-iB-Yw9" id="Zz4-Zw-6FG"/>
@@ -396,7 +396,7 @@
             </objects>
             <point key="canvasLocation" x="1357.5" y="-304"/>
         </scene>
-        <!--Fourth-->
+        <!--Division-->
         <scene sceneID="SXv-02-544">
             <objects>
                 <viewController id="D76-5x-8l7" customClass="FirstViewController" customModule="innovative_swift_calculator" customModuleProvider="target" sceneMemberID="viewController">
@@ -508,7 +508,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Fourth" image="second" id="hBr-TE-7XB"/>
+                    <tabBarItem key="tabBarItem" title="Division" image="second" id="hBr-TE-7XB"/>
                     <connections>
                         <outlet property="lblDivisionAnswer" destination="Ro6-dx-Kqe" id="986-kJ-UPX"/>
                         <outlet property="txtDivisionFirstNumber" destination="Qp6-eG-Mt4" id="sPM-9I-wtK"/>
