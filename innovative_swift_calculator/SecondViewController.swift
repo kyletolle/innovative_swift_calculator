@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class SecondViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var txtSubtractionFirstNumber: UITextField!
     @IBOutlet weak var txtSubtractionSecondNumber: UITextField!
@@ -44,6 +44,11 @@ class SecondViewController: UIViewController {
         txtSubtractionFirstNumber.text = ""
         txtSubtractionSecondNumber.text = ""
         lblSubtractionAnswer.text = "Answer"
+    }
+    
+    override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
+        txtSubtractionFirstNumber.resignFirstResponder()
+        txtSubtractionSecondNumber.resignFirstResponder()
     }
 
 }
