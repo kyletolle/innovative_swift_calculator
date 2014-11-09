@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class FirstViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var txtAdditionFirstNumber: UITextField!
     @IBOutlet weak var txtAdditionSecondNumber: UITextField!
@@ -54,6 +54,9 @@ class FirstViewController: UIViewController {
         additionAnswer = fFirstNumber + fSecondNumber
         
         lblAdditionAnswer.text = "\(additionAnswer)"
+        
+        txtAdditionFirstNumber.resignFirstResponder()
+        txtAdditionSecondNumber.resignFirstResponder()
     }
     
     @IBAction func btnAdditionClear(sender: UIButton) {
@@ -72,6 +75,9 @@ class FirstViewController: UIViewController {
         multiplicationAnswer = fFirstNumber * fSecondNumber
         
         lblMultiplicationAnswer.text = "\(multiplicationAnswer)"
+        
+        txtMultiplicationFirstNumber.resignFirstResponder()
+        txtMultiplicationSecondNumber.resignFirstResponder()
     }
     
     @IBAction func btnMultiplicationClear(sender: UIButton) {
@@ -90,6 +96,9 @@ class FirstViewController: UIViewController {
         divisionAnswer = fFirstNumber / fSecondNumber
         
         lblDivisionAnswer.text = "\(divisionAnswer)"
+
+        txtDivisionFirstNumber.resignFirstResponder()
+        txtDivisionSecondNumber.resignFirstResponder()
     }
     
     @IBAction func btnDivisionClear(sender: UIButton) {

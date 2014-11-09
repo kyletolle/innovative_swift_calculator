@@ -38,6 +38,9 @@ class SecondViewController: UIViewController, UITextFieldDelegate {
         subtractionAnswer = fFirstNumber - fSecondNumber
         
         lblSubtractionAnswer.text = "\(subtractionAnswer)"
+        
+        txtSubtractionFirstNumber.resignFirstResponder()
+        txtSubtractionSecondNumber.resignFirstResponder()
     }
     
     @IBAction func btnSubtractionClear(sender: UIButton) {
@@ -45,11 +48,5 @@ class SecondViewController: UIViewController, UITextFieldDelegate {
         txtSubtractionSecondNumber.text = ""
         lblSubtractionAnswer.text = "Answer"
     }
-    
-    override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
-        txtSubtractionFirstNumber.resignFirstResponder()
-        txtSubtractionSecondNumber.resignFirstResponder()
-    }
-
 }
 
